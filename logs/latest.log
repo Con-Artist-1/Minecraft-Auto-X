@@ -1,0 +1,249 @@
+[12:59:11] [main/INFO]: Loading Minecraft 1.20.6 with Fabric Loader 0.15.11
+[12:59:11] [ForkJoinPool-1-worker-3/WARN]: Mod dev_isxander_libsdl4j uses the version 3.693c75e-36 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '693c75e'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[12:59:12] [main/INFO]: Loading 79 mods:
+	- cloth-config 14.0.126
+	   \-- cloth-basic-math 0.6.1
+	- controlify 2.0.0-beta.10+1.20.6
+	   |-- dev_isxander_libsdl4j 3.693c75e-36
+	   |-- org_hid4java_hid4java 0.7.0
+	   |-- org_quiltmc_parsers_gson 0.3.0
+	   \-- org_quiltmc_parsers_json 0.3.0
+	- debugify 1.20.6+1.0
+	- e4mc_minecraft 4.0.1
+	- entityculling 1.6.5
+	- fabric-api 0.100.0+1.20.6
+	   |-- fabric-api-base 0.4.40+80f8cf51b0
+	   |-- fabric-api-lookup-api-v1 1.6.59+e9d2a72bb0
+	   |-- fabric-biome-api-v1 13.0.25+be5d88beb0
+	   |-- fabric-block-api-v1 1.0.20+6dfe4c9bb0
+	   |-- fabric-block-view-api-v2 1.0.8+80f8cf51b0
+	   |-- fabric-blockrenderlayer-v1 1.1.50+80f8cf51b0
+	   |-- fabric-client-tags-api-v1 1.1.12+7f945d5bb0
+	   |-- fabric-command-api-v1 1.2.45+f71b366fb0
+	   |-- fabric-command-api-v2 2.2.24+80f8cf51b0
+	   |-- fabric-commands-v0 0.2.62+df3654b3b0
+	   |-- fabric-content-registries-v0 8.0.5+b82b2392b0
+	   |-- fabric-convention-tags-v1 2.0.6+7f945d5bb0
+	   |-- fabric-convention-tags-v2 2.1.2+bd772e83b0
+	   |-- fabric-crash-report-info-v1 0.2.27+80f8cf51b0
+	   |-- fabric-data-attachment-api-v1 1.1.16+2a2c66b6b0
+	   |-- fabric-data-generation-api-v1 19.2.2+a5d5299db0
+	   |-- fabric-dimensions-v1 2.1.68+94793913b0
+	   |-- fabric-entity-events-v1 1.6.8+e9d2a72bb0
+	   |-- fabric-events-interaction-v0 0.7.6+c5fc38b3b0
+	   |-- fabric-game-rule-api-v1 1.0.50+80f8cf51b0
+	   |-- fabric-item-api-v1 8.2.3+6e5bbc4ab0
+	   |-- fabric-item-group-api-v1 4.1.0+e0fdb017b0
+	   |-- fabric-key-binding-api-v1 1.0.45+80f8cf51b0
+	   |-- fabric-keybindings-v0 0.2.43+df3654b3b0
+	   |-- fabric-lifecycle-events-v1 2.3.4+c5fc38b3b0
+	   |-- fabric-loot-api-v2 3.0.5+97f703dab0
+	   |-- fabric-message-api-v1 6.0.11+a7dc0e41b0
+	   |-- fabric-model-loading-api-v1 1.0.12+80f8cf51b0
+	   |-- fabric-models-v0 0.4.11+9386d8a7b0
+	   |-- fabric-networking-api-v1 4.1.0+3cb1a7b8b0
+	   |-- fabric-object-builder-api-v1 15.1.4+c5fc38b3b0
+	   |-- fabric-particles-v1 4.0.0+c5fc38b3b0
+	   |-- fabric-recipe-api-v1 5.0.4+c5fc38b3b0
+	   |-- fabric-registry-sync-v0 5.0.17+ad474493b0
+	   |-- fabric-renderer-api-v1 3.2.12+97f703dab0
+	   |-- fabric-renderer-indigo 1.5.13+8d125e3bb0
+	   |-- fabric-renderer-registries-v1 3.2.61+df3654b3b0
+	   |-- fabric-rendering-data-attachment-v1 0.3.46+73761d2eb0
+	   |-- fabric-rendering-fluids-v1 3.1.3+2c869dedb0
+	   |-- fabric-rendering-v0 1.1.64+df3654b3b0
+	   |-- fabric-rendering-v1 4.2.4+b21c00cbb0
+	   |-- fabric-resource-conditions-api-v1 4.2.0+a5d5299db0
+	   |-- fabric-resource-loader-v0 1.1.0+c0e5481fb0
+	   |-- fabric-screen-api-v1 2.0.21+7b70ea8ab0
+	   |-- fabric-screen-handler-api-v1 1.3.74+8c7b71c2b0
+	   |-- fabric-sound-api-v1 1.0.21+c5fc38b3b0
+	   |-- fabric-transfer-api-v1 5.1.6+c5fc38b3b0
+	   \-- fabric-transitive-access-wideners-v1 6.0.10+74e2f560b0
+	- fabric-language-kotlin 1.11.0+kotlin.2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.24.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.3
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- ferritecore 6.1.1
+	- java 21
+	- lithium 0.12.3
+	- minecraft 1.20.6
+	- mixintrace 1.1.1+1.17
+	- modernfix 5.18.0+mc1.20.6
+	- nochatreports 1.20.6-v2.7.0
+	- playit_fabric 1.3.1
+	   |-- com_fasterxml_jackson_core_jackson-annotations 2.14.2
+	   |-- com_fasterxml_jackson_core_jackson-core 2.14.2
+	   \-- com_fasterxml_jackson_core_jackson-databind 2.14.2
+	- yet_another_config_lib_v3 3.4.4+1.20.6-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.10.0
+	   |-- com_twelvemonkeys_common_common-io 3.10.0
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
+	   \-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
+	- yosbr 0.1.2
+[12:59:12] [main/INFO]: Applying default options... (YOSBR)
+[12:59:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/Minecraft-Auto-X/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[12:59:12] [main/INFO]: Compatibility level set to JAVA_17
+[12:59:12] [main/INFO]: Compatibility level set to JAVA_18
+[12:59:12] [main/INFO]: Loaded configuration file for Lithium: 124 options available, 1 override(s) found
+[12:59:12] [main/INFO]: Loaded configuration file for ModernFix 5.18.0+mc1.20.6: 55 options available, 0 override(s) found
+[12:59:12] [main/INFO]: Applying Nashorn fix
+[12:59:13] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[12:59:13] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[12:59:15] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[12:59:15] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[12:59:15] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[12:59:16] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[12:59:18] [main/INFO]: Vanilla bootstrap took 4392 milliseconds
+[12:59:18] [main/INFO]: Enabled 32 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[12:59:18] [main/INFO]: Successfully Debugify'd your game!
+[12:59:19] [main/INFO]: Loading ControlifyServerConfig...
+[12:59:19] [main/INFO]: Saving ControlifyServerConfig...
+[12:59:19] [main/INFO]: Reach-around policy: true
+[12:59:19] [main/INFO]: No-fly drift policy: true
+[12:59:19] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:59:19] [main/INFO]: Bypassed Mojang DFU
+[12:59:21] [Worker-Main-3/INFO]: registered playit command
+[12:59:21] [main/INFO]: Loaded 1175 recipes
+[12:59:22] [main/INFO]: Loaded 1276 advancements
+[12:59:22] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.145 ms
+[12:59:22] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[12:59:22] [Server thread/INFO]: Loading properties
+[12:59:22] [Server thread/INFO]: Default game type: SURVIVAL
+[12:59:22] [Server thread/INFO]: Generating keypair
+[12:59:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:59:22] [Thread-1/INFO]: req: https://broker.e4mc.link/getBestRelay GET
+[12:59:22] [Server thread/INFO]: Using epoll channel type
+[12:59:22] [Server thread/INFO]: Using epoll channel type
+[12:59:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:59:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:59:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:59:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:59:22] [Server thread/INFO]: Preparing level "world"
+[12:59:22] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[12:59:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:59:22] [Thread-1/INFO]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
+[12:59:22] [Thread-1/INFO]: using relay eu
+[12:59:23] [Server thread/INFO]: Preparing spawn area: 0%
+[12:59:23] [Server thread/INFO]: Preparing spawn area: 0%
+[12:59:23] [Server thread/INFO]: Time elapsed: 1004 ms
+[12:59:23] [Server thread/INFO]: Done (1.469s)! For help, type "help"
+[12:59:23] [Server thread/WARN]: Dedicated server took 13.031 seconds to load
+[12:59:24] [nioEventLoopGroup-3-1/INFO]: control channel open: [id: 0x84d0ca67, QuicStreamAddress{streamId=0}]
+[12:59:24] [nioEventLoopGroup-3-1/INFO]: control channel write complete
+[12:59:24] [Thread-7/INFO]: secret key found, checking
+[12:59:24] [Thread-7/INFO]: check secret
+[12:59:24] [nioEventLoopGroup-3-1/WARN]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
+[12:59:24] [nioEventLoopGroup-3-1/INFO]: Domain assigned: cool-clown.eu.e4mc.link
+[12:59:25] [Thread-7/INFO]: found minecraft java tunnel: windows-gospel.joinmc.link
+[12:59:25] [Thread-7/INFO]: keys and tunnel setup
+[12:59:48] [Thread-7/INFO]: got new client: NewClient{connectAddr=209.25.143.194:9977, peerAddr=103.92.152.78:50398, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -62, 38, -7, 103, 92, -104, 78, -60, -34, -111, -105, 30, 33, -85, 8, 102, 102, -8, -60, 0, 0, 0, 0, 0, 9, 3, 102, 0, 0, 0, 0, 0, 50, 43, -57, 99, 33, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -43, -3, -8, -79, -12, -102, 64, -35, -38, 5, -19, 96, -113, -51, -121, 71], tunnelServerId=1, dataCenterId=28}
+[12:59:48] [Thread-7/INFO]: starting tcp tunnel for client
+[12:59:48] [Thread-7/INFO]: start connection to /209.25.143.2:43784 to claim client
+[12:59:48] [nioEventLoopGroup-2-1/INFO]: connected to tunnel server, sending claim token
+[12:59:48] [nioEventLoopGroup-2-1/INFO]: claim token sent
+[12:59:48] [nioEventLoopGroup-2-1/INFO]: connection to tunnel server has been established
+[12:59:48] [nioEventLoopGroup-2-1/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[12:59:48] [nioEventLoopGroup-2-1/INFO]: failed to get ServerConnection from Minecraft Server
+[12:59:48] [nioEventLoopGroup-2-1/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[12:59:48] [nioEventLoopGroup-2-2/INFO]: connected to local minecraft server
+[12:59:49] [Thread-7/INFO]: got new client: NewClient{connectAddr=209.25.143.194:9977, peerAddr=103.92.152.78:50401, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -62, 38, -7, 103, 92, -104, 78, -60, -31, -112, 47, 93, 127, -85, 8, 102, 102, -8, -59, 0, 0, 0, 0, 0, 9, 3, 102, 0, 0, 0, 0, 0, 50, 43, -57, -44, 127, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 53, -106, 88, -20, -60, 14, 40, 50, -2, -95, -54, -98, 4, -66, -120, -73], tunnelServerId=1, dataCenterId=28}
+[12:59:49] [Thread-7/INFO]: starting tcp tunnel for client
+[12:59:49] [Thread-7/INFO]: start connection to /209.25.143.2:43784 to claim client
+[12:59:49] [nioEventLoopGroup-2-3/INFO]: connected to tunnel server, sending claim token
+[12:59:49] [nioEventLoopGroup-2-3/INFO]: claim token sent
+[12:59:49] [nioEventLoopGroup-2-3/INFO]: connection to tunnel server has been established
+[12:59:49] [nioEventLoopGroup-2-3/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[12:59:49] [nioEventLoopGroup-2-3/INFO]: failed to get ServerConnection from Minecraft Server
+[12:59:49] [nioEventLoopGroup-2-3/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[12:59:49] [nioEventLoopGroup-2-4/INFO]: connected to local minecraft server
+[12:59:51] [Server thread/INFO]: Diavlon[/127.0.0.1:44454] logged in with entity id 88 at (-1.3847297964625362, 63.0, -3.699999988079071)
+[12:59:51] [Server thread/INFO]: Diavlon joined the game
+[13:00:06] [Thread-7/INFO]: got new client: NewClient{connectAddr=[2602:fbaf:0830:0000:0000:0000:0000:00c2]:9977, peerAddr=[2a01:7e01:0000:0000:f03c:92ff:fea9:a7d3]:33680, claimAddress=209.25.143.2:43783, claimToken=[64, 0, 88, 38, 2, -5, -81, 8, 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, -62, 38, -7, 42, 1, 126, 1, 0, 0, 0, 0, -16, 60, -110, -1, -2, -87, -89, -45, -125, -112, 0, 0, 0, 0, -7, 126, -65, 100, -85, 7, 102, 102, -8, -42, 0, 0, 0, 0, 0, 9, 3, 102, 0, 0, 0, 0, 0, 50, 43, -57, 74, 100, -85, 7, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 4, 0, 1, -83, -2, -32, 0, -6, 69, -126, 83, 52, 94, 49, -10, 126, 99, 102, 82], tunnelServerId=4, dataCenterId=14}
+[13:00:06] [Thread-7/INFO]: starting tcp tunnel for client
+[13:00:06] [Thread-7/INFO]: start connection to /209.25.143.2:43783 to claim client
+[13:00:06] [nioEventLoopGroup-2-5/INFO]: connected to tunnel server, sending claim token
+[13:00:06] [nioEventLoopGroup-2-5/INFO]: claim token sent
+[13:00:06] [nioEventLoopGroup-2-5/INFO]: connection to tunnel server has been established
+[13:00:06] [nioEventLoopGroup-2-5/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[13:00:06] [nioEventLoopGroup-2-5/INFO]: failed to get ServerConnection from Minecraft Server
+[13:00:06] [nioEventLoopGroup-2-5/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[13:00:06] [nioEventLoopGroup-2-6/INFO]: connected to local minecraft server
+[13:00:39] [nioEventLoopGroup-2-3/WARN]: failed to send data to tunnel
+[13:00:39] [Server thread/INFO]: Diavlon lost connection: Disconnected
+[13:00:39] [Server thread/INFO]: Diavlon left the game
+[13:01:28] [Thread-7/INFO]: got new client: NewClient{connectAddr=209.25.143.194:9977, peerAddr=103.92.152.78:50414, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -62, 38, -7, 103, 92, -104, 78, -60, -18, 114, 115, -82, -57, -85, 8, 102, 102, -7, 40, 0, 0, 0, 0, 0, 9, 3, 102, 0, 0, 0, 0, 0, 50, 43, -57, 106, -57, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 72, 83, 17, -118, 49, 48, -93, 22, -89, 89, -80, 34, -82, 48, -7, -105], tunnelServerId=1, dataCenterId=28}
+[13:01:28] [Thread-7/INFO]: starting tcp tunnel for client
+[13:01:28] [Thread-7/INFO]: start connection to /209.25.143.2:43784 to claim client
+[13:01:28] [nioEventLoopGroup-2-7/INFO]: connected to tunnel server, sending claim token
+[13:01:28] [nioEventLoopGroup-2-7/INFO]: claim token sent
+[13:01:28] [nioEventLoopGroup-2-7/INFO]: connection to tunnel server has been established
+[13:01:28] [nioEventLoopGroup-2-7/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[13:01:28] [nioEventLoopGroup-2-7/INFO]: failed to get ServerConnection from Minecraft Server
+[13:01:28] [nioEventLoopGroup-2-7/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[13:01:28] [nioEventLoopGroup-2-8/INFO]: connected to local minecraft server
+[13:01:29] [Server thread/INFO]: Diavlon[/127.0.0.1:37510] logged in with entity id 271 at (-1.3847297964625362, 63.0, -3.699999988079071)
+[13:01:29] [Server thread/INFO]: Diavlon joined the game
+[13:01:29] [nioEventLoopGroup-2-7/WARN]: failed to send data to tunnel
+[13:01:29] [Server thread/INFO]: Diavlon lost connection: Disconnected
+[13:01:29] [Server thread/INFO]: Diavlon left the game
+[13:04:18] [Thread-7/INFO]: got new client: NewClient{connectAddr=209.25.143.194:9977, peerAddr=103.92.152.78:50418, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -62, 38, -7, 103, 92, -104, 78, -60, -14, -25, -102, -8, -1, -85, 8, 102, 102, -7, -46, 0, 0, 0, 0, 0, 9, 3, 102, 0, 0, 0, 0, 0, 50, 43, -57, 89, -1, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 87, -59, -95, -75, -82, 67, 89, 18, -105, 120, -19, -47, 118, -77, 105, 10], tunnelServerId=1, dataCenterId=28}
+[13:04:18] [Thread-7/INFO]: starting tcp tunnel for client
+[13:04:18] [Thread-7/INFO]: start connection to /209.25.143.2:43784 to claim client
+[13:04:18] [nioEventLoopGroup-2-1/INFO]: connected to tunnel server, sending claim token
+[13:04:18] [nioEventLoopGroup-2-1/INFO]: claim token sent
+[13:04:18] [nioEventLoopGroup-2-1/INFO]: connection to tunnel server has been established
+[13:04:18] [nioEventLoopGroup-2-1/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[13:04:18] [nioEventLoopGroup-2-1/INFO]: failed to get ServerConnection from Minecraft Server
+[13:04:18] [nioEventLoopGroup-2-1/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[13:04:18] [nioEventLoopGroup-2-2/INFO]: connected to local minecraft server
+[13:04:46] [Thread-7/INFO]: got new client: NewClient{connectAddr=209.25.143.194:9977, peerAddr=103.92.152.78:50419, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -62, 38, -7, 103, 92, -104, 78, -60, -13, -32, -114, -76, -128, -85, 8, 102, 102, -7, -18, 0, 0, 0, 0, 0, 9, 3, 102, 0, 0, 0, 0, 0, 50, 43, -57, -66, -128, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 34, -109, -110, -81, 64, -67, 49, -1, -36, 32, 101, 6, -65, 69, 62, 47], tunnelServerId=1, dataCenterId=28}
+[13:04:46] [Thread-7/INFO]: starting tcp tunnel for client
+[13:04:46] [Thread-7/INFO]: start connection to /209.25.143.2:43784 to claim client
+[13:04:46] [nioEventLoopGroup-2-3/INFO]: connected to tunnel server, sending claim token
+[13:04:46] [nioEventLoopGroup-2-3/INFO]: claim token sent
+[13:04:46] [nioEventLoopGroup-2-3/INFO]: connection to tunnel server has been established
+[13:04:46] [nioEventLoopGroup-2-3/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[13:04:46] [nioEventLoopGroup-2-3/INFO]: failed to get ServerConnection from Minecraft Server
+[13:04:46] [nioEventLoopGroup-2-3/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[13:04:46] [nioEventLoopGroup-2-4/INFO]: connected to local minecraft server
+[13:05:58] [Thread-7/INFO]: got new client: NewClient{connectAddr=209.25.143.194:9977, peerAddr=103.92.152.78:50420, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -47, 25, -113, -62, 38, -7, 103, 92, -104, 78, -60, -12, 60, 46, 121, 4, -85, 8, 102, 102, -6, 54, 0, 0, 0, 0, 0, 9, 3, 102, 0, 0, 0, 0, 0, 50, 43, -57, -46, 4, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 68, 112, 76, 96, 93, 42, 56, -102, -66, -25, 65, -80, 59, -31, -73, 99], tunnelServerId=1, dataCenterId=28}
+[13:05:58] [Thread-7/INFO]: starting tcp tunnel for client
+[13:05:58] [Thread-7/INFO]: start connection to /209.25.143.2:43784 to claim client
+[13:05:58] [nioEventLoopGroup-2-5/INFO]: connected to tunnel server, sending claim token
+[13:05:58] [nioEventLoopGroup-2-5/INFO]: claim token sent
+[13:05:58] [nioEventLoopGroup-2-5/INFO]: connection to tunnel server has been established
+[13:05:58] [nioEventLoopGroup-2-5/INFO]: Reflect: ReflectionHelper{ServerConnection=null, LegacyPingHandler=null, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=null, PacketDecoder=null, EnumProtocolDirection=null, PacketPrepender=null, PacketEncoder=null, NetworkManagerServer=null, NetworkManager=null, HandshakeListener=null, PacketListener=null}
+[13:05:58] [nioEventLoopGroup-2-5/INFO]: failed to get ServerConnection from Minecraft Server
+[13:05:58] [nioEventLoopGroup-2-5/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
+[13:05:58] [nioEventLoopGroup-2-6/INFO]: connected to local minecraft server
+[13:05:59] [Server thread/INFO]: Diavlon[/127.0.0.1:34274] logged in with entity id 272 at (-1.3847297964625362, 63.0, -3.699999988079071)
+[13:05:59] [Server thread/INFO]: Diavlon joined the game
+[13:11:09] [nioEventLoopGroup-2-5/WARN]: failed to send data to tunnel
+[13:11:09] [Server thread/INFO]: Diavlon lost connection: Disconnected
+[13:11:09] [Server thread/INFO]: Diavlon left the game
+[13:11:13] [Server thread/INFO]: Stopping the server
+[13:11:13] [Server thread/INFO]: Stopping server
+[13:11:13] [Server thread/INFO]: Saving players
+[13:11:13] [Server thread/INFO]: Saving worlds
+[13:11:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:11:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:11:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:11:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:11:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:11:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:11:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:11:21] [Server thread/INFO]: stopping playit
+[13:11:23] [Thread-7/INFO]: control channel shutdown
