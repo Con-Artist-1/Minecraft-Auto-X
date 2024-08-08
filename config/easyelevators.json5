@@ -1,0 +1,17 @@
+{
+	// The resourcelocations of blocks that are considered to be an elevator block.
+	"elevatorBlocks": "minecraft:iron_block,minecraft:copper_block",
+	// The resourcelocations of blocks that are considered to be an elevator chain.
+	"elevatorChains": "minecraft:chain,minecraft:end_rod",
+	// The minimum size an elevator has to be. By default 3, which means a 3x3 area.
+	// min: 1, max: 33
+	"minimumElevatorSize": 3,
+	// The maximum size an elevator can be. By default 5, which means a 5x5 area.
+	// min: 1, max: 33
+	"maximumElevatorSize": 5,
+	// Whether two iron blocks must be connected via a chain in order to function as an elevator.
+	"elevatorMustBeConnectedViaChains": true,
+	// The maximum amount of blocks the elevator can go up or down in one go with 'elevatorMustBeConnectedViaChains' disabled. More specifically, how many blocks the mod checks up and down to find another elevator block.
+	// min: 1, max: 1000
+	"maximumChainlessElevatorHeight": 20
+}
