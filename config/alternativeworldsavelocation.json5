@@ -1,0 +1,10 @@
+{
+	// Disabled by default, to prevent unwanted modpack behaviour. When enabled, changes the world location to 'defaultMinecraftWorldSaveLocation'
+	"changeDefaultWorldSaveLocation": false,
+	// Use either \\ or / as a path separator. The location of the folder containing the world saves.
+	"defaultMinecraftWorldSaveLocation": "./saves",
+	// Disabled by default. Enable this to set a specific world backup folder. If disabled, this will be set to 'defaultMinecraftWorldSaveLocation'/_Backup.
+	"changeDefaultWorldBackupLocation": false,
+	// Use either \\ or / as a path separator. The world backup folder if both 'changeDefaultWorldSaveLocation' and 'changeDefaultWorldBackupLocation' are enabled.
+	"defaultMinecraftWorldBackupLocation": "./backups"
+}

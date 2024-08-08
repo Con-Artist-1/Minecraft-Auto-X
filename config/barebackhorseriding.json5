@@ -1,0 +1,16 @@
+{
+	// If the player (and horse) should receive the slowness effect when riding a horse without a saddle.
+	"shouldReceiveSlownessDuringRidingWithoutSaddle": true,
+	// If the player should be damaged when riding a horse without a saddle.
+	"shouldDamageDuringRidingWithoutSaddle": false,
+	// If wearing leather pants should prevent the player from being damaged or received slowness, if enabled, when riding without a saddle.
+	"leatherPantsNegateEffect": true,
+	// How often the player should be damaged, if enabled, during riding without a saddle in ticks. 1 second = 20 ticks
+	// min: 1, max: 72000
+	"ticksBetweenDamage": 300,
+	// How much damage should be done to the player from riding without a saddle..
+	// min: 1, max: 100
+	"halfHeartDamageAmount": 2,
+	// If leather pants should lose durability each time it prevents damage.
+	"leatherPantsLoseDurabilityOnNegation": true
+}
