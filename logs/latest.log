@@ -1,804 +1,197 @@
-[22:35:10] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.0
-[22:35:10] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
-[22:35:10] [ForkJoinPool-1-worker-2/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
-- Unsupported root entry "" at line 27 column 4
-- Unsupported root entry "" at line 27 column 198
-- Unsupported root entry "" at line 29 column 4
-- Unsupported root entry "" at line 29 column 24
-[22:35:10] [ForkJoinPool-1-worker-2/WARN]: The mod "betterstats" contains invalid entries in its mod json:
-- Unsupported root entry "" at line 26 column 4
-- Unsupported root entry "" at line 26 column 92
-- Unsupported root entry "" at line 28 column 4
-- Unsupported root entry "" at line 28 column 24
-[22:35:10] [ForkJoinPool-1-worker-2/WARN]: Mod dev_isxander_libsdl4j uses the version 3.6896c4c-38 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '6896c4c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[22:35:11] [main/WARN]: Warnings were found!
- - Mod 'More Mobs' (moremobs) 1.5.2+mod recommends any version of modmenu-badges-lib, which is missing!
-	 - You should install any version of modmenu-badges-lib for the optimal experience.
-[22:35:11] [main/INFO]: Loading 331 mods:
-	- advancementscreenshot 4.8
-	- alllootdrops 3.3
-	- alternativeworldsavelocation 3.5
-	- alwaysawitherskull 3.4
-	- anvilrestoration 2.2
-	- appleskin 3.0.2+mc1.21
-	- aprilfools 1.4
-	- architectury 13.0.6
-	- areas 5.9
-	- automaticdoors 4.8
-	- backslot 1.2.15
-	   \-- amecsapi 1.5.5+mc1.20.2
-	- balm-fabric 21.0.14
-	   \-- kuma_api 21.0.4
-	- barebackhorseriding 2.1
-	- bclib 21.0.10
-	- beautifiedchatclient 2.5
-	- betteradvancements 0.4.2.16
-	- betterbeaconplacement 3.3
-	- betterconduitplacement 3.2
-	- betterspawnercontrol 4.5
-	- betterstats 3.12.4+fabric-1.21
-	- biggerspongeabsorptionradius 3.6
-	- boggedspawn 1.0
-	- bottledair 2.3
-	- bottleyourxp 3.3
-	- bouncierbeds 2.3
-	- breedablekillerrabbit 3.6
-	- breezespawn 1.0
-	- c2me 0.2.0+alpha.11.107+1.21
-	   |-- c2me-base 0.2.0+alpha.11.107+1.21
-	   |-- c2me-client-uncapvd 0.2.0+alpha.11.107+1.21
-	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.107+1.21
-	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.107+1.21
-	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.107+1.21
-	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.107+1.21
-	   |-- c2me-notickvd 0.2.0+alpha.11.107+1.21
-	   |-- c2me-opts-allocs 0.2.0+alpha.11.107+1.21
-	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.107+1.21
-	   |-- c2me-opts-chunkio 0.2.0+alpha.11.107+1.21
-	   |-- c2me-opts-math 0.2.0+alpha.11.107+1.21
-	   |-- c2me-opts-scheduling 0.2.0+alpha.11.107+1.21
-	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.107+1.21
-	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.107+1.21
-	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.107+1.21
-	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.107+1.21
-	   |-- c2me-server-utils 0.2.0+alpha.11.107+1.21
-	   |-- c2me-threading-chunkio 0.2.0+alpha.11.107+1.21
-	   |-- c2me-threading-lighting 0.2.0+alpha.11.107+1.21
-	   |-- c2me-threading-worldgen 0.2.0+alpha.11.107+1.21
-	   |-- com_ibm_async_asyncutil 0.1.0
-	   |-- net_objecthunter_exp4j 0.4.8
-	   \-- org_threadly_threadly 7.0
-	- campfirespawnandtweaks 3.8
-	- cavedust 3.0.0
-	   \-- kirin 1.19.0+1.21
-	- cavespiderspawn 1.1
-	- chatanimation 1.0.6
-	- chunky 1.4.16
-	- cicada 0.8.1+1.21-and-above
-	- cloth-config 15.0.128
-	   \-- cloth-basic-math 0.6.1
-	- collective 7.80
-	- compacthelpcommand 2.6
-	- conduitspreventdrowned 3.7
-	- configurabledespawntimer 4.1
-	- connectiblechains 2.4.1+1.21
-	- controlify 2.0.0-beta.14+1.21-fabric
-	   |-- dev_isxander_libsdl4j 3.6896c4c-38
-	   |-- org_hid4java_hid4java 0.7.0
-	   |-- org_quiltmc_parsers_gson 0.3.0
-	   \-- org_quiltmc_parsers_json 0.3.0
-	- creativecore 2.12.3
-	   \-- net_neoforged_bus 7.2.0
-	- cristellib 1.2.7
-	   \-- blue_endless_jankson 1.2.3
-	- cropsloverain 2.1.1
-	   \-- midnightlib 1.5.7
-	- cryingghasts 3.4
-	- cryingportals 2.7
-	- currentgamemusictrack 2.1
-	- cyclepaintings 3.5
-	- deathbackup 3.3
-	- debugify 1.21+1.0
-	- despawningeggshatch 4.3
-	- dismountentity 3.4
-	- doubledoors 5.8
-	- dragondropselytra 3.3
-	- easyanvils 21.0.2
-	- easyelevators 1.0
-	- easyelytratakeoff 4.3
-	- easymagic 21.0.1
-	- easyshulkerboxes 21.0.1
-	   \-- iteminteractions 21.0.3
-	- edibles 4.3
-	- elytraslot 9.0.0+1.21
-	   \-- mixinsquared 0.1.2-beta.6
-	- enchantingcommands 3.3
-	- endportalrecipe 5.4
-	- entityculling 1.6.6
-	- erodingstoneentities 4.5
-	- evs 2.1
-	- extendedbonemeal 3.4
-	- extractpoison 3.3
-	- fabric-api 0.100.7+1.21
-	   |-- fabric-api-base 0.4.42+6573ed8cd1
-	   |-- fabric-api-lookup-api-v1 1.6.67+b5597344d1
-	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
-	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
-	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
-	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
-	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
-	   |-- fabric-command-api-v1 1.2.49+f71b366fd1
-	   |-- fabric-command-api-v2 2.2.28+6ced4dd9d1
-	   |-- fabric-commands-v0 0.2.66+df3654b3d1
-	   |-- fabric-content-registries-v0 8.0.15+b5597344d1
-	   |-- fabric-convention-tags-v1 2.0.18+7f945d5bd1
-	   |-- fabric-convention-tags-v2 2.4.2+c111832ad1
-	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
-	   |-- fabric-data-attachment-api-v1 1.1.25+6a6dfa19d1
-	   |-- fabric-data-generation-api-v1 20.2.12+16c4ae25d1
-	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
-	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
-	   |-- fabric-events-interaction-v0 0.7.10+e633f883d1
-	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
-	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
-	   |-- fabric-item-group-api-v1 4.1.3+78017270d1
-	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
-	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
-	   |-- fabric-lifecycle-events-v1 2.3.11+8f3583aed1
-	   |-- fabric-loot-api-v2 3.0.13+3f89f5a5d1
-	   |-- fabric-loot-api-v3 1.0.1+3f89f5a5d1
-	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
-	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
-	   |-- fabric-networking-api-v1 4.2.0+ab7edbacd1
-	   |-- fabric-object-builder-api-v1 15.1.13+d1321076d1
-	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
-	   |-- fabric-recipe-api-v1 5.0.10+65089712d1
-	   |-- fabric-registry-sync-v0 5.0.25+5bd9f1bcd1
-	   |-- fabric-renderer-api-v1 3.3.0+0ae0b97dd1
-	   |-- fabric-renderer-indigo 1.6.5+48fb1586d1
-	   |-- fabric-renderer-registries-v1 3.2.68+df3654b3d1
-	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
-	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
-	   |-- fabric-rendering-v0 1.1.71+df3654b3d1
-	   |-- fabric-rendering-v1 5.0.5+df16efd0d1
-	   |-- fabric-resource-conditions-api-v1 4.2.1+d153f344d1
-	   |-- fabric-resource-loader-v0 1.2.0+7e687b32d1
-	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
-	   |-- fabric-screen-handler-api-v1 1.3.82+b5597344d1
-	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
-	   |-- fabric-transfer-api-v1 5.1.15+3dccd343d1
-	   \-- fabric-transitive-access-wideners-v1 6.0.12+6573ed8cd1
-	- fabric-language-kotlin 1.11.0+kotlin.2.0.0
-	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.0
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.0
-	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.24.0
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.1
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.1
-	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.0
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.3
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.3
-	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.3
-	- fabricloader 0.16.0
-	   \-- mixinextras 0.4.0
-	- fallthroughslime 3.3
-	- fastercrouching 2.5
-	- ferritecore 7.0.0
-	- firespreadtweaks 2.6
-	- firstjoinmessage 3.5
-	- fishontheline 3.3
-	- fixedanvilrepaircost 3.3
-	- flowermimics 1.9
-	- followersteleporttoo 2.5
-	- forgeconfigapiport 21.0.5
-	   |-- com_electronwill_night-config_core 3.8.0
-	   \-- com_electronwill_night-config_toml 3.8.0
-	- friendsandfoes 2.0.15
-	- furnacerecycle 2.4
-	- giantspawn 5.1
-	- glitchcore 2.0.0.2
-	   \-- net_jodah_typetools 0.6.3
-	- globalnarrationtoggle 1.3
-	- grabbymobs 1.5
-	- grassseeds 3.2
-	- grindstonesharpertools 3.6
-	- guiclock 4.5
-	- guicompass 4.7
-	- guifollowers 3.7
-	- handoveryouritems 3.4
-	- healingcampfire 6.0
-	- hidehands 4.2
-	- hoetweaks 3.4
-	- huskspawn 3.5
-	- icepreventscropgrowth 3.3
-	- improvedsignediting 1.3
-	- infinitetrading 4.4
-	- inventorytotem 3.2
-	- jamlib 1.0.9+1.21
-	   \-- blue_endless_jankson 1.2.3
-	- java 21
-	- justmobheads 8.2
-	- justplayerheads 4.0
-	- keepmysoiltilled 2.3
-	- kelpfertilizer 3.2
-	- kiwi 15.1.0+fabric
-	- lithium 0.12.7
-	- milkallthemobs 3.2
-	- minecraft 1.21
-	- mineralchance 3.6
-	- mixintrace 1.1.1+1.17
-	- modernfix 5.18.8+mc1.21
-	- mooshroomspawn 3.5
-	- mooshroomtweaks 3.4
-	- moremobs 1.5.2+mod
-	- morezombievillagers 3.5
-	- moveboats 3.3
-	- moveminecarts 3.5
-	- mr_health_indicator 3
-	- mr_ketkets_furnicraft 4.2
-	- mr_qraftyfied 8.1.1
-	- mr_tidal_towns 1.3.2
-	- mru 0.4.4+1.21
-	- nametagtweaks 3.6
-	- naturallychargedcreepers 3.4
-	- netherportalspread 8.2
-	- noanimaltemptdelay 1.1
-	- nochatreports 1.21-v2.8.0
-	- nofeathertrample 1.2
-	- nohostilesaroundcampfire 7.0
-	- noisium 2.2.1+mc1.21
-	- notenoughanimations 1.7.4
-	- nutritiousmilk 3.3
-	- omegamute 4.1
-	- oreharvester 1.3
-	- overworldpiglins 1.4
-	- paperbooks 3.4
-	- passiveendermen 4.7
-	- passiveshield 3.5
-	- persistentinventorysearch 1.4
-	- petnames 3.3
-	- piglinnames 1.0
-	- placeholder-api 2.4.1+1.21
-	- playit_fabric 1.3.1
-	   |-- com_fasterxml_jackson_core_jackson-annotations 2.14.2
-	   |-- com_fasterxml_jackson_core_jackson-core 2.14.2
-	   \-- com_fasterxml_jackson_core_jackson-databind 2.14.2
-	- pumpkillagersquest 4.3
-	- puzzleslib 21.0.17
-	- quickpaths 3.4
-	- quickrightclick 1.4
-	- rainbegoneritual 3.3
-	- randombonemealflowers 4.5
-	- randomsheepcolours 3.3
-	- randomshulkercolours 3.2
-	- randomvillagenames 3.6
-	- realisticbees 3.9
-	- recast 3.4
-	- replantingcrops 5.3
-	- repurposed_structures 7.5.4+1.21-fabric
-	- respawningshulkers 3.9
-	- rightclickharvest 4.3.1+1.21
-	- saveandloadinventories 3.3
-	- scaffoldingdropsnearby 3.2
-	- setworldspawnpoint 3.3
-	- shulkerboxtooltip 5.0.4+1.21
-	- shulkerdropstwo 3.3
-	- simplemenu 1.3
-	- sit 1.21-28
-	- skeletonhorsespawn 3.9
-	- sleepsooner 4.5
-	- smallernetherportals 3.7
-	- smoothmenu 1.1.0
-	- snowballsfreezemobs 3.6
-	- snowrealmagic 11.0.2+fabric
-	- softerhaybales 3.2
-	- sound_physics_remastered 1.21-1.4.5
-	- spark 1.10.73
-	   \-- fabric-permissions-api-v0 0.3.1
-	- spidersproducewebs 3.4
-	- stackrefill 4.4
-	- starterkit 7.0
-	- stickyenchantinglapis 1.2
-	- strayspawn 3.6
-	- superflatworldnoslimes 3.3
-	- supermartijn642configlib 1.1.8
-	- surfacemushrooms 3.4
-	- t_and_t 1.13.2
-	- talkbubbles 1.0.8
-	- tcdcommons 3.12.2+fabric-1.21
-	- terrablender 4.0.0.1
-	- terralith 2.5.4
-	- thornybushprotection 1.3
-	- tntbreaksbedrock 3.3
-	- transcendingtrident 4.7
-	- treeharvester 8.9
-	- trinkets 3.10.0
-	   |-- cardinal-components-base 6.1.0
-	   \-- cardinal-components-entity 6.1.0
-	- underground_villages 4.0.0
-	- underwaterenchanting 2.8
-	- vanillazoom 2.5
-	- vcinteraction 1.21-1.0.7
-	   \-- polymer-registry-sync-manipulator 0.9.0+1.21-rc1
-	- villagebellrecipe 3.5
-	- villagerdeathmessages 3.4
-	- villagernames 8.0
-	- villagespawnpoint 4.3
-	- visualoverhaul 5.2.1
-	   \-- midnightlib 1.5.7
-	- visualworkbench 21.0.1
-	- voicechat 1.21-2.5.19
-	   \-- fabric-key-binding-api-v1 1.0.47+0af3f5a790
-	- weakerspiderwebs 3.6
-	- wooltweaks 3.6
-	- wover 21.0.11
-	   |-- wover-biome 21.0.11
-	   |-- wover-block 21.0.11
-	   |-- wover-common 21.0.11
-	   |-- wover-core 21.0.11
-	   |-- wover-datagen 21.0.11
-	   |-- wover-events 21.0.11
-	   |-- wover-feature 21.0.11
-	   |-- wover-generator 21.0.11
-	   |-- wover-item 21.0.11
-	   |-- wover-math 21.0.11
-	   |-- wover-preset 21.0.11
-	   |-- wover-recipe 21.0.11
-	   |-- wover-structure 21.0.11
-	   |-- wover-surface 21.0.11
-	   |-- wover-tag 21.0.11
-	   |-- wover-ui 21.0.11
-	   \-- wunderlib 21.0.5
-	- xaerominimap 24.2.1
-	- yet_another_config_lib_v3 3.5.0+1.21-fabric
-	   |-- com_twelvemonkeys_common_common-image 3.10.0
-	   |-- com_twelvemonkeys_common_common-io 3.10.0
-	   |-- com_twelvemonkeys_common_common-lang 3.10.0
-	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
-	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
-	   \-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
-	- yosbr 0.1.2
-	- youritemsaresafe 4.4
-	- zombiehorsespawn 5.0
-	- zombieproofdoors 3.4
-	- zombievillagersfromspawner 3.8
-[22:35:11] [main/WARN]: Found 1 non-fabric mod:
-	- dungeons-and-taverns-v4.3.jar
-[22:35:11] [main/INFO]: Applying default options... (YOSBR)
-[22:35:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Minecraft-Auto-X/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:35:11] [main/INFO]: Compatibility level set to JAVA_21
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[22:35:12] [main/INFO]: Updating config from 0 to 1
-[22:35:12] [main/INFO]: Updating config from 1 to 2
-[22:35:12] [main/INFO]: Updating config from 2 to 3
-[22:35:12] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[22:35:12] [main/INFO]: Disabling com.ishland.c2me.opts.chunk_access.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[22:35:12] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@13.0.6 (*) (defined in c2me)
-[22:35:12] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[22:35:12] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[22:35:12] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[22:35:12] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[22:35:12] [main/WARN]: Reference map 'easyshulkerboxes.common.refmap.json' for easyshulkerboxes.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:35:12] [main/WARN]: Reference map 'easyshulkerboxes.fabric.refmap.json' for easyshulkerboxes.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:35:12] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:35:12] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:35:12] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[22:35:12] [main/INFO]: Loaded configuration file for Lithium: 138 options available, 1 override(s) found
-[22:35:12] [main/INFO]: Loaded configuration file for ModernFix 5.18.8+mc1.21: 53 options available, 4 override(s) found
-[22:35:12] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[22:35:12] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[22:35:12] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[22:35:12] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[22:35:12] [main/INFO]: Applying Nashorn fix
-[22:35:12] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:35:12] [main/WARN]: Reference map 'visualworkbench.common.refmap.json' for visualworkbench.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:35:12] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:35:13] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[22:35:13] [main/WARN]: Error loading class: net/minecraft/class_638$class_5271 (java.lang.ClassNotFoundException: net/minecraft/class_638$class_5271)
-[22:35:13] [main/WARN]: @Mixin target net.minecraft.class_638$class_5271 was not found dust.mixins.json:ClientWorldAccessor from mod cavedust
-[22:35:13] [main/WARN]: Error loading class: net/minecraft/class_340 (java.lang.ClassNotFoundException: net/minecraft/class_340)
-[22:35:13] [main/WARN]: @Mixin target net.minecraft.class_340 was not found dust.mixins.json:MixinDebugScreenOverlay from mod cavedust
-[22:35:13] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
-[22:35:13] [main/WARN]: @Mixin target net.minecraft.class_465 was not found creativecore.fabric.mixins.json:AbstractContainerScreenMixin from mod creativecore
-[22:35:13] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[22:35:14] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[22:35:14] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
-[22:35:20] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[22:35:20] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[22:35:20] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[22:35:21] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[22:35:26] [main/INFO]: Vanilla bootstrap took 9556 milliseconds
-[22:35:26] [main/INFO]: [Collective] JSON file 'area_names.json' generation requested by mod 'areas'.
-[22:35:26] [main/INFO]: ChatAnimation initialized!
-[22:35:26] [main/INFO]: Loading Collective version 7.80.
-[22:35:26] [main/ERROR]: No data fixer registered for chain_knot
-[22:35:26] [main/INFO]: Initialized entity types.
-[22:35:26] [main/INFO]: Register Custom Payloads for Networking.
-[22:35:26] [Cicada thread 0/INFO]: [cicada] Hello, anyone there?
-[22:35:27] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[22:35:27] [main/INFO]: Successfully Debugify'd your game!
-[22:35:27] [main/INFO]: Constructing common components for easyanvils:main
-[22:35:27] [main/INFO]: Dispatching LOADING event for config at easyanvils-common.toml
-[22:35:27] [main/INFO]: Constructing common components for easymagic:main
-[22:35:27] [main/INFO]: Constructing common components for easyshulkerboxes:main
-[22:35:28] [main/INFO]: Constructing common components for iteminteractions:main
-[22:35:28] [main/INFO]: Initializing JamLib on Fabric
-[22:35:28] [main/INFO]: [More Mobs] MidnightLib detected!
-[22:35:28] [main/INFO]: [More Mobs] Registering server started event...
-[22:35:28] [main/INFO]: [More Mobs] Loaded More Mobs by Tschipcraft successfully!
-[22:35:28] [main/INFO]: Loading Noisium.
-[22:35:28] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'petnames'.
-[22:35:28] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'piglinnames'.
-[22:35:28] [main/INFO]: Constructing common components for puzzleslib:main
-[22:35:29] [main/INFO]: Updated config file at /workspaces/Minecraft-Auto-X/config/rightclickharvest.json5
-[22:35:29] [main/INFO]: Updated config file at /workspaces/Minecraft-Auto-X/config/rightclickharvest.json5
-[22:35:29] [main/INFO]: Initializing Right Click Harvest on FABRIC
-[22:35:29] [main/INFO]: [ShulkerBoxTooltip] Could not find configuration file, creating default file
-[22:35:29] [main/INFO]: [Collective] JSON file 'linger_messages.json' generation requested by mod 'sleepsooner'.
-[22:35:29] [Thread-2/INFO]: [Friends&Foes] An update is available! You are using 2.0.15 version, but the latest version is 2.0.16.
-[22:35:29] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
-[22:35:29] [main/INFO]: Constructing common components for visualworkbench:main
-[22:35:29] [main/INFO]: [voicechat] Compatibility version 18
-[22:35:29] [main/INFO]: [voicechat] Loading plugins
-[22:35:29] [main/INFO]: [voicechat] Loaded 2 plugin(s)
-[22:35:29] [main/INFO]: [voicechat] Initializing plugins
-[22:35:29] [main/INFO]: Initializing Simple Voice Chat integration
-[22:35:29] [main/INFO]: [voicechat] Initialized 2 plugin(s)
-[22:35:29] [main/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
-[22:35:29] [main/INFO]: [voicechat] Registering events for 'vcinteraction'
-[22:35:29] [main/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
-[22:35:29] [main/INFO]: Config file './config/controlify.json' does not exist. Creating it with default values.
-[22:35:29] [main/INFO]: Serializing class dev.isxander.controlify.server.ControlifyServerConfig to './config/controlify.json'
-[22:35:29] [main/INFO]: Serializing class dev.isxander.controlify.server.ControlifyServerConfig to './config/controlify.json'
-[22:35:29] [main/INFO]: Reach-around policy: true
-[22:35:29] [main/INFO]: No-fly drift policy: true
-[22:35:30] [main/INFO]: Processing 3 KiwiModule annotations
-[22:35:30] [main/INFO]: Module [snowrealmagic:core] initialized
-[22:35:30] [main/INFO]: 		block: 11, block_entity_type: 2, entity_type: 1, loot_pool_entry_type: 1
-[22:35:30] [main/INFO]: Module [kiwi:data] initialized
-[22:35:30] [main/INFO]: 		recipe_serializer: 2
-[22:35:30] [main/INFO]: Initializing 'TCD Commons API' 3.12.2+fabric-1.21 as 'TCDCommonsServer'.
-[22:35:30] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[22:35:30] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:35:30] [main/INFO]: Applying Patch{ModCore: bclib (bclib):3.0.11:196619}
-[22:35:30] [main/INFO]: Running Pre Patchers on ./world/.
-[22:35:30] [main/WARN]: Applying Fixes on Level
-[22:35:30] [main/INFO]: Patcher Stage... Reading Data%
-[22:35:30] [main/INFO]: Patcher Stage... Fixing Players%
-[22:35:30] [main/INFO]: Patcher Stage... Applying Patches to level.dat%
-[22:35:30] [main/INFO]: Inspecting level.dat in ./world/.
-[22:35:30] [main/WARN]: Already did run PrePatches for ./world/..
-[22:35:30] [main/INFO]: Running Pre Patchers on ./world/.
-[22:35:30] [main/ERROR]: Failed fixing Level-Data.
-[22:35:30] [main/INFO]: [STDERR]: java.nio.file.NoSuchFileException: ./world/./level.dat
-[22:35:30] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
-[22:35:30] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
-[22:35:30] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
-[22:35:30] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
-[22:35:30] [main/INFO]: [STDERR]: 	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
-[22:35:30] [main/INFO]: [STDERR]: 	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
-[22:35:30] [main/INFO]: [STDERR]: 	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
-[22:35:30] [main/INFO]: [STDERR]: 	at java.base/java.nio.file.Files.newInputStream(Files.java:159)
-[22:35:30] [main/INFO]: [STDERR]: 	at net.minecraft.class_2507.method_30613(class_2507.java:34)
-[22:35:30] [main/INFO]: [STDERR]: 	at org.betterx.bclib.api.v2.datafixer.MigrationProfile.runPreLevelPatches(MigrationProfile.java:219)
-[22:35:30] [main/INFO]: [STDERR]: 	at org.betterx.bclib.api.v2.datafixer.MigrationProfile.runPrePatches(MigrationProfile.java:214)
-[22:35:30] [main/INFO]: [STDERR]: 	at org.betterx.bclib.api.v2.datafixer.MigrationProfile.getLevelDat(MigrationProfile.java:181)
-[22:35:30] [main/INFO]: [STDERR]: 	at org.betterx.bclib.api.v2.datafixer.DataFixerAPI.fixLevel(DataFixerAPI.java:376)
-[22:35:30] [main/INFO]: [STDERR]: 	at org.betterx.bclib.api.v2.datafixer.DataFixerAPI.runDataFixes(DataFixerAPI.java:335)
-[22:35:30] [main/INFO]: [STDERR]: 	at org.betterx.bclib.api.v2.datafixer.DataFixerAPI.lambda$fixData$1(DataFixerAPI.java:221)
-[22:35:30] [main/INFO]: [STDERR]: 	at org.betterx.bclib.api.v2.datafixer.DataFixerAPI.lambda$fixData$5(DataFixerAPI.java:251)
-[22:35:30] [main/INFO]: [STDERR]: 	at org.betterx.bclib.api.v2.datafixer.DataFixerAPI.fixData(DataFixerAPI.java:267)
-[22:35:30] [main/INFO]: [STDERR]: 	at org.betterx.bclib.api.v2.datafixer.DataFixerAPI.fixData(DataFixerAPI.java:139)
-[22:35:30] [main/INFO]: [STDERR]: 	at org.betterx.bclib.api.v2.levelgen.LevelGenEvents.patchExistingWorldOnServer(LevelGenEvents.java:43)
-[22:35:30] [main/INFO]: [STDERR]: 	at org.betterx.wover.events.impl.types.FolderReadyEventImpl.lambda$emit$0(FolderReadyEventImpl.java:26)
-[22:35:30] [main/INFO]: [STDERR]: 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-[22:35:30] [main/INFO]: [STDERR]: 	at org.betterx.wover.events.impl.types.FolderReadyEventImpl.emit(FolderReadyEventImpl.java:26)
-[22:35:30] [main/INFO]: [STDERR]: 	at net.minecraft.server.Main.modifyExpressionValue$cpp000$wover-events$wover_captureStorageAccess(Main.java:523)
-[22:35:30] [main/INFO]: [STDERR]: 	at net.minecraft.server.Main.main(Main.java:137)
-[22:35:30] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
-[22:35:30] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
-[22:35:30] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
-[22:35:30] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
-[22:35:30] [main/INFO]: [STDERR]: 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
-[22:35:30] [main/INFO]: Patcher Stage... Patching Custom World-Data%
-[22:35:30] [main/INFO]: Patcher Stage... Repairing all Regions%
-[22:35:30] [main/ERROR]: There were Errors while fixing the Level:
-[22:35:30] [main/ERROR]:   - Failed fixing Level-Data in level.dat (./world/./level.dat)
-
-[22:35:30] [main/INFO]: Found new data pack backslot, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack balm-fabric, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack bclib, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack collective, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack connectiblechains, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack easyanvils, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack easymagic, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack easyshulkerboxes, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack elytraslot, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack endportalrecipe, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack evs, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack fabric, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack fabric-convention-tags-v2, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack friendsandfoes, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack furnacerecycle, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack moremobs, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack mr_health_indicator, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack mr_ketkets_furnicraft, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack mr_qraftyfied, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack mr_tidal_towns, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack nametagtweaks, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack paperbooks, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack passiveendermen, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack pumpkillagersquest, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack repurposed_structures, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack rightclickharvest, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack snowrealmagic, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack t_and_t, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack terrablender, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack terralith, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack trinkets, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack underground_villages, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack vcinteraction, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack villagebellrecipe, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack visualworkbench, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack wooltweaks, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack wover-generator, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack wover-preset, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack wover-surface, loading it automatically
-[22:35:30] [main/INFO]: Found new data pack wover-tag, loading it automatically
-[22:35:30] [main/INFO]: Processing wover.datapack.registry Entrypoints
-[22:35:30] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
-[22:35:30] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
-[22:35:30] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
-[22:35:30] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
-[22:35:30] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
-[22:35:32] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (7f109544)
-[22:35:32] [main/INFO]: Unable to build Biome List yet
-[22:35:32] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[22:35:32] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[22:35:32] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (69c5ee42)
-[22:35:32] [main/INFO]: Unable to build Biome List yet
-[22:35:32] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[22:35:32] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[22:35:32] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2320a9e9)
-[22:35:32] [main/INFO]: Unable to build Biome List yet
-[22:35:32] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[22:35:32] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[22:35:32] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (b0de1ff)
-[22:35:32] [main/INFO]: Unable to build Biome List yet
-[22:35:32] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[22:35:32] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[22:35:32] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (66603581)
-[22:35:32] [main/INFO]: Unable to build Biome List yet
-[22:35:32] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[22:35:32] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[22:35:32] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3600a86e)
-[22:35:32] [main/INFO]: Unable to build Biome List yet
-[22:35:32] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[22:35:32] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[22:35:33] [main/INFO]: No existing world data, creating new world
-[22:35:33] [main/INFO]: Creating presets file for new world
-[22:35:33] [main/INFO]: Applying Patch{ModCore: bclib (bclib):3.0.11:196619}
-[22:35:33] [main/INFO]: Updating Patch-Level for 'ModCore: bclib (bclib)' from 0.0.0 to 3.0.11
-[22:35:34] [Worker-Main-1/INFO]: registered playit command
-[22:35:34] [Worker-Main-1/ERROR]: Couldn't read tag list qrafty:has_structure/hobbit_hole from qrafty:tags/worldgen/biome/has_structure/hobbit_hole.json in data pack mr_qraftyfied
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 27 column 3 path $.values[23]
-	at com.google.gson.internal.Streams.parse(Streams.java:61) ~[gson-2.10.1.jar:?]
-	at com.google.gson.JsonParser.parseReader(JsonParser.java:102) ~[gson-2.10.1.jar:?]
-	at com.google.gson.JsonParser.parseReader(JsonParser.java:70) ~[gson-2.10.1.jar:?]
-	at net.minecraft.class_3503.method_33174(class_3503.java:51) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3503.method_33176(class_3503.java:128) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3505.method_33181(class_3505.java:46) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 27 column 3 path $.values[23]
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1659) ~[gson-2.10.1.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:485) ~[gson-2.10.1.jar:?]
-	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.1.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.1.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.1.jar:?]
-	at com.google.gson.internal.Streams.parse(Streams.java:49) ~[gson-2.10.1.jar:?]
-	... 12 more
-[22:35:34] [Worker-Main-1/ERROR]: Couldn't read tag list qrafty:has_structure/ice_fort from qrafty:tags/worldgen/biome/has_structure/ice_fort.json in data pack mr_qraftyfied
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 3 column 2 path $.replace
-	at com.google.gson.internal.Streams.parse(Streams.java:61) ~[gson-2.10.1.jar:?]
-	at com.google.gson.JsonParser.parseReader(JsonParser.java:102) ~[gson-2.10.1.jar:?]
-	at com.google.gson.JsonParser.parseReader(JsonParser.java:70) ~[gson-2.10.1.jar:?]
-	at net.minecraft.class_3503.method_33174(class_3503.java:51) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3503.method_33176(class_3503.java:128) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3505.method_33181(class_3505.java:46) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at line 3 column 2 path $.replace
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1659) ~[gson-2.10.1.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:500) ~[gson-2.10.1.jar:?]
-	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.1.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.1.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.1.jar:?]
-	at com.google.gson.internal.Streams.parse(Streams.java:49) ~[gson-2.10.1.jar:?]
-	... 12 more
-[22:35:34] [main/INFO]: Disabling Recipe: bclib:test_star
-[22:35:35] [main/INFO]: Loaded 1525 recipes
-[22:35:35] [main/INFO]: Added 0 recipes in 10ms
-[22:35:35] [main/ERROR]: Couldn't load tag minecraft:tick as it is missing following references: hp:tick (from mr_health_indicator)
-[22:35:35] [main/INFO]: Loaded 1439 advancements
-[22:35:35] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: qrafty:has_structure/hobbit_hole, qrafty:has_structure/ice_fort
-[22:35:35] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (61a2b278)
-[22:35:35] [main/INFO]: Added 2 Biomes
-[22:35:35] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[22:35:35] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[22:35:35] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[22:35:35] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[22:35:35] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[22:35:35] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (7dbd325)
-[22:35:35] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[22:35:35] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[22:35:35] [main/INFO]: Added 4 biomes to c:is_end_highland in 3.869 ms
-[22:35:35] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (61a2b278)
-[22:35:35] [main/INFO]: Added 2 Biomes
-[22:35:35] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[22:35:35] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[22:35:35] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[22:35:35] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (66603581)
-[22:35:35] [main/INFO]: Added 2 Biomes
-[22:35:35] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[22:35:35] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[22:35:35] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[22:35:35] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (66603581)
-[22:35:35] [main/INFO]: Added 2 Biomes
-[22:35:35] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[22:35:35] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[22:35:35] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[22:35:35] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (7dbd325)
-[22:35:35] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3600a86e)
-[22:35:35] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3600a86e)
-[22:35:35] [main/INFO]: Applied 0 biome modifications and added 0 tags to 0 of 159 biomes in 2.466 ms
-[22:35:35] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[22:35:35] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[22:35:35] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[22:35:36] [main/INFO]: Applied 578 biome modifications to 157 of 159 new biomes in 57.85 ms
-[22:35:36] [Server thread/INFO]: Dispatching LOADING event for config at easyanvils-server.toml
-[22:35:36] [Server thread/INFO]: Dispatching LOADING event for config at easymagic-server.toml
-[22:35:36] [Server thread/INFO]: Dispatching LOADING event for config at iteminteractions-server.toml
-[22:35:36] [Server thread/INFO]: Dispatching LOADING event for config at visualworkbench-server.toml
-[22:35:36] [Server thread/INFO]: Starting background profiler...
-[22:35:37] [Server thread/INFO]: Starting minecraft server version 1.21
-[22:35:37] [Server thread/INFO]: Loading properties
-[22:35:37] [Server thread/INFO]: Default game type: SURVIVAL
-[22:35:37] [Server thread/INFO]: Generating keypair
-[22:35:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:35:37] [Server thread/INFO]: Using epoll channel type
-[22:35:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:35:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:35:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:35:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:35:37] [Server thread/INFO]: Preparing level "world"
-[22:35:37] [Server thread/INFO]: World Dimensions: 
- - minecraft:the_end: 
-     WoVer - Chunk Generator (2ef4ae7e)
-         preset     = wover:normal
-         noise      = minecraft:end
-         features   = minecraft(5), repurposed_structures(1)
-     WoVer - The End  BiomeSource (66603581)
-         biomes     = 5
-         namespaces = minecraft(5)
-         seed       = 0
-         height     = 128
-         deciders   = 0
-         config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
- - minecraft:the_nether: 
-     WoVer - Chunk Generator (6bdabcb4)
-         preset     = wover:normal
-         noise      = minecraft:nether
-         features   = minecraft(37), repurposed_structures(2)
-     WoVer - Nether BiomeSource (3600a86e)
-         biomes     = 5
-         namespaces = minecraft(5)
-         seed       = 0
-         height     = 128
-         config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
- - minecraft:overworld: 
-     class_3754 (1845b7d7)
-         preset     = minecraft:normal
-         noise      = minecraft:overworld
-         features   = terralith(384), minecraft(152), repurposed_structures(20), friendsandfoes(1)
-     class_4766 (79725767)
-         biomes     = 147
-         namespaces = minecraft(53), terralith(94)
-[22:35:37] [Server thread/INFO]: Enforcing safe world random access
-[22:36:04] [Server thread/INFO]: [STDOUT]: [Flower Mimics] Error: Unable to generate flower mimic config list.
-[22:36:08] [Server thread/INFO]: [Village Spawn Point] Finding the nearest village. This might take a few seconds.
-[22:36:13] [Server thread/INFO]: Locating element #minecraft:village (towns_and_towers:village_ocean) took 4310 ms
-[22:36:16] [Server thread/INFO]: [Village Spawn Point] Village found! The world will now generate.
-[22:36:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:36:16] [Worker-Main-1/INFO]: Preparing spawn area: 12%
-[22:36:16] [Worker-Main-1/INFO]: Preparing spawn area: 12%
-[22:36:17] [Worker-Main-1/INFO]: Preparing spawn area: 12%
-[22:36:17] [Worker-Main-1/INFO]: Preparing spawn area: 12%
-[22:36:18] [Worker-Main-1/INFO]: Preparing spawn area: 12%
-[22:36:18] [Worker-Main-1/INFO]: Preparing spawn area: 12%
-[22:36:19] [Worker-Main-1/INFO]: Preparing spawn area: 12%
-[22:36:19] [Worker-Main-1/INFO]: Preparing spawn area: 22%
-[22:36:20] [Worker-Main-1/INFO]: Preparing spawn area: 28%
-[22:36:20] [Worker-Main-1/INFO]: Preparing spawn area: 28%
-[22:36:21] [Worker-Main-1/INFO]: Preparing spawn area: 28%
-[22:36:21] [Worker-Main-1/INFO]: Preparing spawn area: 28%
-[22:36:22] [Worker-Main-1/INFO]: Preparing spawn area: 28%
-[22:36:22] [Worker-Main-1/INFO]: Preparing spawn area: 38%
-[22:36:23] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[22:36:23] [Worker-Main-1/INFO]: Preparing spawn area: 61%
-[22:36:24] [Worker-Main-1/INFO]: Preparing spawn area: 61%
-[22:36:24] [Worker-Main-1/INFO]: Preparing spawn area: 61%
-[22:36:25] [Worker-Main-1/INFO]: Preparing spawn area: 61%
-[22:36:25] [Worker-Main-1/INFO]: Preparing spawn area: 61%
-[22:36:26] [Worker-Main-1/INFO]: Preparing spawn area: 63%
-[22:36:26] [Server thread/INFO]: Time elapsed: 10720 ms
-[22:36:26] [Server thread/INFO]: Done (49.242s)! For help, type "help"
-[22:36:26] [Server thread/WARN]: Dedicated server took 94.216 seconds to load
-[22:36:26] [Server thread/INFO]: [More Mobs] Sending global config to server...
-[22:36:26] [Server thread/INFO]: Created new objective [ts.mm.settings]
-[22:36:26] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[22:36:26] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[22:36:27] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[22:36:27] [Server thread/INFO]: Locating element #minecraft:village (towns_and_towers:village_ocean) took 0 ms
-[22:36:30] [Thread-14/INFO]: secret key not set, generate claim code: e6101681e2078fa3
-[22:36:30] [Thread-14/INFO]: trying to exchange claim code for secret
-[22:36:31] [Thread-14/INFO]: failed to exchange, to claim visit: https://playit.gg/mc/e6101681e2078fa3
-[22:36:34] [Thread-14/INFO]: trying to exchange claim code for secret
-[22:36:35] [Thread-14/INFO]: failed to exchange, to claim visit: https://playit.gg/mc/e6101681e2078fa3
-[22:36:38] [Thread-14/INFO]: trying to exchange claim code for secret
-[22:36:38] [Thread-14/INFO]: failed to exchange, to claim visit: https://playit.gg/mc/e6101681e2078fa3
-[22:36:41] [Thread-14/INFO]: trying to exchange claim code for secret
-[22:36:43] [Thread-14/INFO]: failed to exchange, to claim visit: https://playit.gg/mc/e6101681e2078fa3
-[22:36:46] [Thread-14/INFO]: trying to exchange claim code for secret
-[22:36:47] [Thread-14/INFO]: failed to exchange, to claim visit: https://playit.gg/mc/e6101681e2078fa3
-[22:36:50] [Thread-14/INFO]: trying to exchange claim code for secret
-[22:36:50] [Thread-14/INFO]: failed to exchange, to claim visit: https://playit.gg/mc/e6101681e2078fa3
-[22:36:53] [Thread-14/INFO]: trying to exchange claim code for secret
-[22:36:54] [Thread-14/INFO]: check secret
-[22:36:57] [Thread-14/INFO]: create new minecraft java tunnel
-[22:37:07] [Thread-14/INFO]: found minecraft java tunnel: church-regards.joinmc.link
-[22:37:07] [Thread-14/INFO]: keys and tunnel setup
-[22:37:31] [Server thread/INFO]: Stopping the server
-[22:37:31] [Server thread/INFO]: Stopping server
-[22:37:31] [Server thread/INFO]: Saving players
-[22:37:31] [Server thread/INFO]: Saving worlds
-[22:37:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:37:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:37:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:37:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:37:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:37:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:37:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:37:32] [Server thread/INFO]: stopping playit
-[22:37:32] [Server thread/INFO]: Dispatching UNLOADING event for config at easyanvils-server.toml
-[22:37:32] [Server thread/INFO]: Dispatching UNLOADING event for config at easymagic-server.toml
-[22:37:32] [Server thread/INFO]: Dispatching UNLOADING event for config at iteminteractions-server.toml
-[22:37:32] [Server thread/INFO]: Dispatching UNLOADING event for config at visualworkbench-server.toml
+[22:56:43] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Amazon.com Inc. Corretto-21.0.6.7.1) on Windows 11 10.0 (amd64)
+[22:56:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) for Minecraft 1.21.4
+[22:56:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:56:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[22:56:49] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - PaperTweaks (0.5.0)
+[22:56:49] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - Essentials (2.20.1), Geyser-Spigot (2.6.1-SNAPSHOT), SkinsRestorer (15.6.0), TreeFella (1.2), ViaBackwards (5.2.1), ViaVersion (5.2.1)
+[22:57:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:57:04] [ServerMain/INFO]: Loaded 1370 recipes
+[22:57:05] [ServerMain/INFO]: Loaded 1481 advancements
+[22:57:05] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[22:57:05] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 278.7ms
+[22:57:06] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[22:57:06] [Server thread/INFO]: Loading properties
+[22:57:06] [Server thread/INFO]: This server is running Paper version 1.21.4-187-main@1d5e5a5 (2025-02-28T19:53:30Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[22:57:06] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:57:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:57:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:57:07] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:57:07] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[22:57:07] [Server thread/INFO]: Default game type: SURVIVAL
+[22:57:07] [Server thread/INFO]: Generating keypair
+[22:57:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:57:08] [Server thread/INFO]: Using default channel type
+[22:57:08] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[22:57:08] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[22:57:09] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[22:57:09] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[22:57:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[22:57:11] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[22:57:11] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[22:57:11] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[22:57:11] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[22:57:11] [Server thread/INFO]: [TreeFella] Loading server plugin TreeFella v1.2
+[22:57:11] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.0
+[22:57:11] [Server thread/INFO]: [PaperTweaks] Loading server plugin PaperTweaks v0.5.0
+[22:57:11] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
+[22:57:12] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[22:57:12] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[22:57:12] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[22:57:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:57:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
+[22:57:13] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[22:57:14] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
+[22:57:15] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[22:57:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:57:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:57:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:57:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:57:15] [Server thread/INFO]: Preparing level "world"
+[22:57:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:57:16] [Server thread/INFO]: Preparing spawn area: 0%
+[22:57:17] [Server thread/INFO]: Preparing spawn area: 4%
+[22:57:17] [Server thread/INFO]: Preparing spawn area: 4%
+[22:57:17] [Server thread/INFO]: Time elapsed: 1149 ms
+[22:57:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:57:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:57:17] [Server thread/INFO]: Time elapsed: 253 ms
+[22:57:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:57:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:57:18] [Server thread/INFO]: Time elapsed: 212 ms
+[22:57:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[22:57:18] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[22:57:18] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[22:57:18] [Server thread/INFO]: [TreeFella] Enabling TreeFella v1.2
+[22:57:18] [Server thread/INFO]: [PaperTweaks] Enabling PaperTweaks v0.5.0
+[22:57:18] [Server thread/INFO]: [PaperTweaks] Thank you for using PaperTweaks/VanillaTweaks!
+[22:57:18] [Server thread/INFO]: [PaperTweaks] If you have any issues, please visit one of the following links for support:
+[22:57:18] [Server thread/INFO]: [PaperTweaks]   - https://discord.gg/invite/Np6Pcb78rr
+[22:57:18] [Server thread/INFO]: [PaperTweaks]   - https://github.com/MC-Machinations/VanillaTweaks/issues
+[22:57:19] [Server thread/INFO]: [PaperTweaks] You are using the H2 database type.
+[22:57:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:57:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[22:57:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[22:57:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[22:57:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[22:57:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[22:57:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:57:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.0
+[22:57:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dec2ffc
+[22:57:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[22:57:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:57:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[22:57:21] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[22:57:24] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:57:26] [Server thread/INFO]: [PaperTweaks] Loaded 40 modules
+[22:57:26] [Server thread/INFO]: [PaperTweaks] Enabled 0 modules
+[22:57:26] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
+[22:57:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[22:57:27] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[22:57:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:57:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:57:28] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[22:57:28] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:57:28] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:57:28] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:57:28] [Server thread/INFO]: [Essentials] Using config file enhanced permissions.
+[22:57:28] [Server thread/INFO]: [Essentials] Permissions listed in as player-commands will be given to all users.
+[22:57:28] [Server thread/INFO]: [spark] Starting background profiler...
+[22:57:28] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[22:57:28] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:57:28] [Server thread/INFO]: [Geyser-Spigot] 
+[22:57:28] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.1-b784 (git-master-cc94d5a)
+[22:57:28] [Server thread/INFO]: [Geyser-Spigot] 
+[22:57:28] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:57:32] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[22:57:32] [Server thread/INFO]: [Geyser-Spigot] Done (4.283s)! Run /geyser help for help!
+[22:57:33] [Server thread/INFO]: Done preparing level "world" (17.388s)
+[22:57:33] [Server thread/INFO]: Starting GS4 status listener
+[22:57:33] [Server thread/INFO]: Thread Query Listener started
+[22:57:33] [Server thread/INFO]: Running delayed init tasks
+[22:57:33] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[22:57:33] [Server thread/INFO]: Done (54.692s)! For help, type "help"
+[22:57:33] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:57:33] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[22:59:54] [User Authenticator #0/INFO]: UUID of player Diavlon is 1eccd9af-1ff1-3baf-a337-7a1d823ece6b
+[22:59:55] [Server thread/INFO]: Diavlon joined the game
+[22:59:55] [Server thread/INFO]: Diavlon[/127.0.0.1:49915] logged in with entity id 47 at ([world]-386.51249998807907, -24.0, 335.8974094675656)
+[23:00:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2747ms or 54 ticks behind
+[23:00:32] [nioEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Bedrock user with ip: /127.0.0.1 has disconnected for reason Please log into Xbox to join this server.
+[23:01:10] [Server thread/INFO]: Diavlon issued server command: /rmwarp TrailCC
+[23:01:17] [nioEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Ioan19292
+[23:01:17] [localSession-7-2/INFO]: [Geyser-Spigot] Ioan19292 (logged in as: Ioan19292) has connected to the Java server
+[23:01:18] [User Authenticator #1/INFO]: UUID of player Ioan19292 is 14606e78-8203-3b64-9d87-2d785a570f87
+[23:01:18] [Server thread/INFO]: Ioan19292 joined the game
+[23:01:18] [Server thread/INFO]: Ioan19292[/127.0.0.1:0] logged in with entity id 398 at ([world]-449.45496, -31.0, 332.18073)
+[23:01:21] [Server thread/INFO]: Diavlon issued server command: /setwarp trailc
+[23:01:25] [Server thread/INFO]: Diavlon issued server command: /tp Ioan19292
+[23:01:37] [Async Chat Thread - #0/INFO]: [Not Secure] <Diavlon> tp back to home
+[23:01:42] [Async Chat Thread - #0/INFO]: [Not Secure] <Diavlon> imma give you some stuff
+[23:01:56] [Async Chat Thread - #0/INFO]: [Not Secure] <Diavlon> you cant break the spawners
+[23:02:04] [Async Chat Thread - #2/INFO]: [Not Secure] <Diavlon> you put keys in the spawners
+[23:02:09] [Server thread/INFO]: Diavlon issued server command: /warp home
+[23:02:09] [Server thread/WARN]: Diavlon moved too quickly! 197.56965080251615,142.0,153.85121211702602
+[23:02:09] [Server thread/WARN]: Diavlon moved too quickly! 197.56965080251615,142.0,153.85121211702602
+[23:02:27] [Server thread/INFO]: Ioan19292 issued server command: /warp home
+[23:03:01] [Server thread/INFO]: Diavlon issued server command: /give Diavlon trail_key
+[23:03:05] [Server thread/INFO]: Diavlon issued server command: /give Diavlon trail_key 2
+[23:03:10] [Server thread/INFO]: Diavlon issued server command: /give Diavlon trails 1
+[23:03:10] [Server thread/ERROR]: [CraftMagicNumbers] Exception modifying ItemStack
+java.lang.Throwable: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
+	at org.bukkit.craftbukkit.util.CraftMagicNumbers.modifyItemStack(CraftMagicNumbers.java:297) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at EssentialsX-2.20.1.jar/com.earth2me.essentials.MetaItemStack.canSpawn(MetaItemStack.java:135) ~[EssentialsX-2.20.1.jar:?]
+	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.Commandgive.run(Commandgive.java:56) ~[EssentialsX-2.20.1.jar:?]
+	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:175) ~[EssentialsX-2.20.1.jar:?]
+	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:170) ~[EssentialsX-2.20.1.jar:?]
+	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:820) ~[EssentialsX-2.20.1.jar:?]
+	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommand(Essentials.java:723) ~[EssentialsX-2.20.1.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2204) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2177) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-187-1d5e5a5]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
+[23:03:16] [Async Chat Thread - #3/INFO]: [Not Secure] <Ioan19292> erm i found an ancient city
+[23:03:23] [Async Chat Thread - #3/INFO]: [Not Secure] <Diavlon> bruh
+[23:03:50] [Async Chat Thread - #3/INFO]: [Not Secure] <Diavlon> uhh why u standing outside tho
+[23:04:21] [Server thread/WARN]: Ioan19292 moved wrongly!
+[23:04:28] [Async Chat Thread - #3/INFO]: [Not Secure] <Diavlon> i put the keys in the chest
+[23:04:30] [Async Chat Thread - #3/INFO]: [Not Secure] <Diavlon> the bottom on
+[23:04:42] [Async Chat Thread - #3/INFO]: [Not Secure] <Diavlon> anyways i gotta dip cause i gotta study for the upcoming exam
+[23:04:52] [Async Chat Thread - #3/INFO]: [Not Secure] <Ioan19292> there is an ancient city where is the trial chambers
+[23:04:54] [Async Chat Thread - #3/INFO]: [Not Secure] <Diavlon> if i get anything other than A+ i am getting kiled
+[23:04:59] [Async Chat Thread - #3/INFO]: [Not Secure] <Diavlon> bruhhh
+[23:05:02] [Async Chat Thread - #3/INFO]: [Not Secure] <Ioan19292> my wifi
+[23:05:02] [Server thread/INFO]: Diavlon lost connection: Disconnected
+[23:05:02] [Server thread/INFO]: Diavlon left the game
+[23:05:07] [Server thread/INFO]: Unknown or incomplete command, see below for error
+bruhh<--[HERE]
+[23:05:09] [Server thread/INFO]: [Not Secure] [Server] burhh
+[23:05:12] [localSession-7-2/INFO]: [Geyser-Spigot] Ioan19292 has disconnected from the Java server because of Bedrock client timed out
+[23:05:12] [Server thread/INFO]: Ioan19292 lost connection: Disconnected
+[23:05:12] [Server thread/INFO]: Ioan19292 left the game
