@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.233.177.0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1741454615482
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741457048390
+  login: 1741453498076
+money: '0'
+last-account-name: Dextuhxdd
+logoutlocation:
+  world: 39eb28e4-f770-496a-a9ca-8e21ca118903
+  world-name: world_nether
+  x: -682.624742073744
+  y: 71.0
+  z: 2170.699999988079
+  yaw: -0.274169921875
+  pitch: 17.3514461517334
+lastlocation:
+  world: 5d877db8-f480-411d-b2fd-9ce371167fe8
+  world-name: world
+  x: -280.28090490370283
+  y: 112.0
+  z: 477.5590142257848
+  yaw: -38.174407958984375
+  pitch: 16.860374450683594

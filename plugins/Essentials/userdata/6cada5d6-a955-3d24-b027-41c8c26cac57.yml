@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.0.201
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1741453228904
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741453298949
+  login: 1741453193985
+money: '0'
+last-account-name: AlphaCenturi859
+lastlocation:
+  world: 5d877db8-f480-411d-b2fd-9ce371167fe8
+  world-name: world
+  x: 6.086865
+  y: 79.0
+  z: 1.0406742
+  yaw: 53.25830078125
+  pitch: 46.24183654785156
+logoutlocation:
+  world: 5d877db8-f480-411d-b2fd-9ce371167fe8
+  world-name: world
+  x: -257.3642
+  y: 111.0
+  z: 484.3649
+  yaw: 102.2564697265625
+  pitch: 3.06304931640625

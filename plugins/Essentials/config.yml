@@ -314,21 +314,26 @@ player-commands:
   - spawn
   - suicide
   - time
+  - tp
   - tpa
   - tpaccept
   - tpahere
   - tpdeny
   - warp
+  - setwarp
   - warp.list
   - world
   - worth
   - xmpp
+  - time
+  - essentials.keepinv
+  - keepinv
 
 # Use this option to force superperms-based permissions handler regardless of detected installed perms plugin.
 # This is useful if you want superperms-based permissions (with wildcards) for custom permissions plugins.
 # If you wish to use EssentialsX's built-in permissions using the `player-commands` section above, set this to false.
 # Default is true.
-use-bukkit-permissions: true
+use-bukkit-permissions: false
 
 # When this option is enabled, one-time use kits (ie. delay < 0) will be
 # removed from the /kit list when a player can no longer use it

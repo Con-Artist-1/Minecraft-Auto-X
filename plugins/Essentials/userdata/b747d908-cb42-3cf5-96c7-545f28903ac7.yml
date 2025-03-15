@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.71.109.72
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1741441061565
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741442143206
+  login: 1741437387383
+money: '0'
+lastlocation:
+  world: 5d877db8-f480-411d-b2fd-9ce371167fe8
+  world-name: world
+  x: -184.79595993504267
+  y: 64.0
+  z: 262.22612001204766
+  yaw: -106.35015106201172
+  pitch: 4.950014591217041
+logoutlocation:
+  world: 6f63ff75-17e9-48ce-8fd3-8e00ec879a60
+  world-name: world_the_end
+  x: 1033.6126293142981
+  y: 58.0
+  z: -1012.3734846492356
+  yaw: -106.79559326171875
+  pitch: 31.800247192382812
+last-account-name: TurboFisto727

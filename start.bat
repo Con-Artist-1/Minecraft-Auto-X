@@ -1,1 +1,1 @@
-java -Xms1G -Xmx5G -jar paper.jar
+java -Xms1G -Xmx8G -jar paper.jar

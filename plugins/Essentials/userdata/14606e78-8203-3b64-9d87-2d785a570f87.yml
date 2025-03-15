@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1741973156605
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741973219053
+  login: 1741972440752
+money: '0'
+last-account-name: Ioan19292
+lastlocation:
+  world: 39eb28e4-f770-496a-a9ca-8e21ca118903
+  world-name: world_nether
+  x: -19.08038
+  y: 21.0
+  z: 129.86615
+  yaw: -104.87423706054688
+  pitch: 57.74945068359375
+logoutlocation:
+  world: 5d877db8-f480-411d-b2fd-9ce371167fe8
+  world-name: world
+  x: -226.43129
+  y: 79.0
+  z: 444.1567
+  yaw: -130.3229522705078
+  pitch: 39.42875671386719

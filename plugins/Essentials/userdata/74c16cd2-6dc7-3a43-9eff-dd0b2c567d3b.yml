@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.36.167.98
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1741117837422
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741118043272
+  login: 1741112399119
+money: '0'
+last-account-name: iNaz69
+lastlocation:
+  world: 5d877db8-f480-411d-b2fd-9ce371167fe8
+  world-name: world
+  x: -1940.940670935996
+  y: 67.0
+  z: 2452.8057567358683
+  yaw: 28.661142349243164
+  pitch: 9.74946117401123
+logoutlocation:
+  world: 5d877db8-f480-411d-b2fd-9ce371167fe8
+  world-name: world
+  x: -270.0409956441477
+  y: 106.0
+  z: 516.413240237337
+  yaw: 30.5987548828125
+  pitch: 26.400148391723633

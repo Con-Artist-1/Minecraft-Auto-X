@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.238.169.134
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1741312822617
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741975258905
+  login: 1741975213924
+money: '0'
+last-account-name: dumy_222
+lastlocation:
+  world: 5d877db8-f480-411d-b2fd-9ce371167fe8
+  world-name: world
+  x: -258.6293579265076
+  y: 111.0
+  z: 484.0861051575091
+  yaw: 52.52236557006836
+  pitch: -6.565309524536133
+logoutlocation:
+  world: 5d877db8-f480-411d-b2fd-9ce371167fe8
+  world-name: world
+  x: -255.30000001192093
+  y: 111.0
+  z: 492.021561100183
+  yaw: 5.862178802490234
+  pitch: 67.49034881591797
